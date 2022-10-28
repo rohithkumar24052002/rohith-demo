@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;
+  max-width: 100%;
+  font-family: "montserrat", sans-serif;
+}
+
+li, a, button {
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 13px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #00889a;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgb(0, 136, 169);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+h1 {
+  text-align: center;
+  color: #edf0f1;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 4%;
+}
+
+label {
+  font-family: "montserrat", sans-serif;
+  color: #f2f2f2;
+}
+
+::placeholder {
+  font-family: "montserrat", sans-serif;
+  color: grey;
+  opacity: 1;
+}
+
+#country {
+  background: #f2f2f2;
+  color: #000000;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: whitesmoke;
+}
+
+.container {
+  border-radius: 3px;
+  padding: auto auto;
+  margin: 60px 30%;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  font-weight: 1000;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(0, 136, 169);
+}
+
+.submit {
+  text-align: center;
+}
+
+option {
+  background-color: #f2f2f2;
+}
+
+/*# sourceMappingURL=contacts.css.map */

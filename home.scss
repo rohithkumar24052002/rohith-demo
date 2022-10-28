@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;700;900&display=swap');
+
+*{
+  // box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  // background-color: #24252A;
+//   // background-color: #FFFFFF;
+
+
+  // background-image:url(images/html-css.webp);
+  font-family: "montserrat" , sans-serif;
+}
+
+body{
+   
+  // background-color: #a0e2ff;
+  // background-image: linear-gradient(62deg, #a0e2ff 0%, #66d69c 100%);
+  background-image: url("https://img.freepik.com/premium-photo/top-view-blue-background-with-part-keyboard-left-website-banner_376548-4158.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+li,a{
+  font-family: "montserrat" , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #24728c;
+  text-decoration: none;
+  
+}
+
+button{
+  color: white;
+  border-radius: 50px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 13px; 
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.nav__links{
+  list-style: none;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+  color: #00889a;
+  text-decoration: underline;
+}
+
+button{
+  padding: 9px 25px;
+  color: white;
+  background-color: rgba(0, 136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: white;
+  color: rgba(0,136,169,0.8);
+  
+}
+h1{
+   font-family: "montserrat" , sans-serif;
+  text-align: center;
+  color: #edf0f1;
+  font-size: 50px;
+  padding-top: 200px;
+  transition: 1s;
+
+}
+
+p{
+  padding: 20px;
+  align-items: center;
+  text-indent: 10%;
+}
+
+h1:hover{
+  font-size: 53px;
+  font-weight: 500;
+  color:#00889a;
+}
+
+
+p{
+  margin: 50px;
+  color: #24728c;
+  text-align:center;
+  text-indent: 0;
+}
